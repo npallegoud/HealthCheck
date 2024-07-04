@@ -31,4 +31,6 @@ Add  ***/5 * * * * monitor**
  
  **crontab -l** 
 
+ It will Execute for every 5 minutes
+
 ![image](https://github.com/npallegoud/System_HealthCheck/assets/76092758/4c775d89-2a84-4f07-a1f2-78fa15de3db7)
