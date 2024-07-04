@@ -22,9 +22,13 @@ Sample Output:
 
 
 To Run Continuosly Add to cronjob
-Usage: crontab -e 
-*/5 * * * * monitor
+
+Usage: **crontab -e** 
+
+Add  ***/5 * * * * monitor**
+
  save it 
- crontab -l 
+ 
+ **crontab -l** 
 
 ![image](https://github.com/npallegoud/System_HealthCheck/assets/76092758/4c775d89-2a84-4f07-a1f2-78fa15de3db7)
