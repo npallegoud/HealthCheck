@@ -7,9 +7,7 @@ clear
 if [[ $# -eq 0 ]]
 then
 {
-
-
-# Check RAM and SWAP Usages
+# Check RAM Usages
 echo "---------------------------"
 free -h | grep -v + > /tmp/ramcache
 echo -e '\E[32m'"Ram Usages :" $tecreset
@@ -36,8 +34,7 @@ echo -e "${cyan}The top 10 services with high resource usage are listed below.${
 ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
 
 
-
-#Check CPU Usage
+# Check CPU Usage
 echo "------------------------------"
 echo "CPU USAGE"
 echo "------------------------------"
