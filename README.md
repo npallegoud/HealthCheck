@@ -20,6 +20,7 @@ Usage:
 Sample Output:
 ![image](https://github.com/npallegoud/HealthCheck/assets/76092758/3c0626d9-7aaa-4f40-b46d-6d25ed26f73d)
 
+### CPU ALERTS WILL SAVE TO /tmp/cpu-log-xxxxx.log
 
 To Run Continuosly Add to cronjob
 
